@@ -1,0 +1,40 @@
+div.second{
+  display:none;
+}
+img{
+  height: 4em;
+  float: left;
+  padding-right: 200px;
+  border-left: 200px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+  background-color: #ef3a42  ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 27px 20px;
+  text-decoration: none;
+  font-family: Arial;
+}
+li a:hover{
+  background-color: black;
+}
+
+.active {
+  background-color: gray;
+}
+body{
+  margin:0;
+}
